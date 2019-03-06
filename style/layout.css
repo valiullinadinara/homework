@@ -1,0 +1,42 @@
+html {
+  overflow: hidden;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background: linear-gradient(to right, #014b68, #010020);
+}
+main {
+  position: relative;
+}
+.img1{
+  position: fixed;
+  margin-top: 80px;
+
+  width: 15%;
+}
+.img2{
+  position: fixed;
+  margin-top: -200px;
+
+  width: 30vh;
+}
+
+
+.line {
+  position: absolute;
+  margin-left: -85px;
+}
+
+
+/* #img{
+animation-name: test;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes test {
+from {margin-left: 3px;}
+to {margin-left: 1200px;
+margin-top: 470px;}
+} */
